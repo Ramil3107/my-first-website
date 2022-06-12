@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="/Task_1/css_for_all_pages/footer.css">
+    <link rel="stylesheet" href="/Task_1/css_for_all_pages/background.css">
+    <link rel="stylesheet" href="/Task_1/css_for_all_pages/navbar.css">
+    <link rel="stylesheet" href="/Task_1/css_for_all_pages/socialmedia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/Task_1/checklist_page/checklist.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/Task_1/index_page/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="/Task_1/aboutme.html">About Me</a>
+                </li>
+                <li>
+                    <a href="/Task_1/checklist_page/checklist.html">To Do List</a>
+                </li>
+                <li>
+                    <a href="/Task_1/contacts.html">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <!-- Social Media Side Bar -->
+    <div class="icon-bar">
+        <a href="https://www.instagram.com/blinchik_s_povidlom" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.facebook.com/ramil.abbasov.56232" class="facebook"><i class="fa fa-facebook"></i></a>
+    </div>
+
+    <!-- Checklist -->
+    <div id="myDIV" class="header">
+        <h2>Что мне нужно выучить</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <ul id=UL class="myUL">
+        <li class="checkbox">Объявление переменных ( var, let , const и понимать разницу) </li>
+        <li class="checkbox">Объявление функций ( function declaration and function expression)</li>
+        <li class="checkbox">Стрелочные функции</li>
+        <li class="checkbox">Методы массива ( map, filter, find)</li>
+        <li class="checkbox">Git hub ( создавать новый проект, делать комит и что такое комит,и делать пуш )</li>
+        <li class="checkbox">Footer добавить</li>
+    </ul>
+
+    <script src="/Task_1/checklist_page/checklist.js"></script>
+
+    <footer>
+        <div class="footer">
+            Ramik 2022 | Politika
+        </div>  
+        </footer>
+
+</body>
+
+</html>

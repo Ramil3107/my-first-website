@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/Task_1/css_for_all_pages/footer.css">
+    <link rel="stylesheet" href="/Task_1/css_for_all_pages/background.css">
+    <link rel="stylesheet" href="/Task_1/css_for_all_pages/navbar.css">
+    <link rel="stylesheet" href="/Task_1/css_for_all_pages/socialmedia.css">
+    <link rel="stylesheet" href="/Task_1/index_page/index.css">
+    <link rel="stylesheet" href="/Task_1/css_for_all_pages/text.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navigation -->
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="/Task_1/index_page/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="/Task_1/aboutme.html">About Me</a>
+                </li>
+                <li>
+                    <a href="/Task_1/checklist_page/checklist.html">To Do List</a>
+                </li>
+                <li>
+                    <a href="/Task_1/contacts.html">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <h1>Начало учебы. Задание №1</h1>
+    <hr>
+    <div class="container">
+        <p>
+            На этой странице я использовал готовые решения и редактировал их. В процессе редактировния максимально
+            пытался познакомиться с CSS.Нашел видео по базам CSS на 20 мин.
+            Начал понимать, что у меня с этим проблемы. <br>Так же мне начали встречаться новые методы в JS, что тоже
+            нужно подучить.
+            Дальше расскажу про проблемы конкретно на этой странице и также постараюсь
+            описать каждую проблему конкретной страницы.
+        </p>
+        <hr>
+        <h2>Панель навигации</h2>
+        <p>
+            С панелью навигации были большие проблемы.То она "уплывает", то сверху других элементов,
+            то элементы сверху
+            нее. В общем она создала мне "головняка"". Такие проблемы вообще часто встречаются при объеденении готовых
+            решений,
+            потому что эти те, кто писал эти решения,
+            часто прописывают CSS команды не по классам или айди, а по целым кускам типа body, header и тд.
+            Приходится раскапывать несколько
+            файлов и убирать эту "конкурецию". <br>
+            Также мне захотелось поместить в "бордеры" каждый пункт в навигации, но и с этим тоже были проблемы.<br>
+            Нашел способы как подвязывать header и footer на каждую страницу с помощью Jquery, но решил не использовать
+            этот метод
+            и просто скопировал части кода на каждую страницу. Возможно есть другой способ.
+        </p>
+        <hr>
+        <h2>Слайдшоу</h2>
+        <p>
+            Оооо да, это было еще то удовольствие. В целом понимаю как она работает, но нужно еще "покапаться". В момент
+            написания кода для слайдшоу,
+            я подумал как бы мне поставить его там, где мне нужно.
+            В конечном итоге снес все и переделал. Теперь все выглядит так, как я хотел изначально.
+        </p>
+    </div>
+
+
+
+    <!-- Image Gallery -->
+
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="/Task_1/index_page/imgs/img1.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="/Task_1/index_page/imgs/img2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="/Task_1/index_page/imgs/img3.jpg" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script src="/Task_1/index_page/index.js"></script>
+
+
+    <!-- Social Media Bar Container -->
+    <div class="icon-bar">
+        <a href="https://www.instagram.com/blinchik_s_povidlom" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.facebook.com/ramil.abbasov.56232" class="facebook"><i class="fa fa-facebook"></i></a>
+    </div>
+
+    <footer>
+        <div class="footer">
+            Ramik 2022 | Politika
+        </div>
+    </footer>
+
+</body>
+
+</html>
