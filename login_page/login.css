@@ -2,7 +2,18 @@ Body {
     font-family: Calibri, Helvetica, sans-serif;
     background-color: #5680b2;
     color: white;
+    align-content: center;
+    padding-top: 10rem;
+    width: 100%;
 }
+
+.form {
+    border: 3px solid #344d6b;
+    border-radius: 10px;
+    width: 70%;
+    max-width: 500px;
+}
+
 
 .btn {
     background-color: #b6d8e4;
@@ -25,15 +36,6 @@ font-weight:500;
 font-size: medium;
 }
 
-
-.form {
-    display: flex;
-    border: 3px solid #344d6b;
-    border-radius: 10px;
-    width: 30%;
-    height: 100%;
-    margin-top: 10%;
-}
 
 input[type=text],
 input[type=password] {
