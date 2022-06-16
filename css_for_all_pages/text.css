@@ -28,7 +28,8 @@ body hr{
     border-bottom: 1px solid rgba(119, 119, 119, 0.25)
 }
 .container{
-    width: 70%;
+    width: 90%;
+    max-width: 600px;
     margin: 1rem auto;
     padding: 1rem;
     text-align: justify;
@@ -50,9 +51,9 @@ body hr{
     margin-top: -5px;
 }
 
-@media screen and (max-width:600px){
+/* @media screen and (max-width:600px){
     .container{
         width: 100%;
         padding: 1rem;
     }
-}
+} */
